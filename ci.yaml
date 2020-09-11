@@ -1,0 +1,8 @@
+name: CI Example
+steps:
+- shell: |
+    #!/usr/bin/env bash
+    echo "Hello World!"
+- shell: |
+    #!/usr/bin/env bash
+    make test
